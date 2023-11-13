@@ -1,0 +1,21 @@
+# Jupyter Java
+
+Welcome to Jupyter Java, a GitHub organization created to simplify the discovery of various ways to use Java with Jupyter notebooks. We're not here to start a Java vs Python debate, we're all about the love of coding, regardless of the language! So, let's keep it light-hearted and fun.
+
+We provide JBang scripts to set up and install various Jupyter kernels, along with Docker images for easy execution in various Jupyter environments. Enjoy exploring!
+
+## Installing Jupyter Kernels
+
+The simplest way to run Java based Jupyter kernels is to install https://jbang.dev[JBang] and run the following:
+
+```bash
+jbang install-kernel@jupyter-java
+```
+
+It will install a default kernel which is then available locally on your computer.
+This can then be used in your local Jupyter install.
+
+## Trademarks
+
+Please note that "Jupyter" and "Java" are trademarks owned by their respective owners. This project is not endorsed by or affiliated with the owners of these trademarks.
+
