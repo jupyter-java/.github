@@ -6,7 +6,7 @@ Welcome to Jupyter Java, a GitHub organization created to simplify the discovery
 
 We provide JBang scripts to set up and install various Jupyter kernels, along with Docker images for easy execution in various Jupyter environments. Enjoy exploring!
 
-## Installing Jupyter Kernels
+## Installing Jupyter Kernels locally
 
 The simplest way to run Java based Jupyter kernels is to install https://jbang.dev[JBang] and run the following:
 
@@ -14,14 +14,40 @@ The simplest way to run Java based Jupyter kernels is to install https://jbang.d
 jbang install-kernel@jupyter-java
 ```
 
-It will install a default IJava kernel which is then available locally on your computer.
+It will install a default Java kernel (currently IJava) which is then available locally on your computer.
 This can then be used in your local Jupyter install or via editors that support jupyter notebook such as vscode, intellij etc.
 
-There are other kernels available you can provide as arguments to the install-kernel command:
+## Installing in online Jupyter notebooks
 
-- `ijava`
-- `rapaio`
-- `ganymede`
+The great thing about this JBang driven approach is that it makes it accessible to install in many online Jupyter notebooks too.
+
+```bash
+!pip install jbang
+import jbang
+jbang.exec("trust add https://github.com/jupyter-java")
+jbang.exec("install-kernel@jupyter-java")
+```
+Once this has executed successfully you should be able to change the kernel/runtime in your Jupyter notebook.
+
+We've successfully tested this on the following online Jupyter notebooks: 
+
+- mybinder
+- Google Co-lab
+- GitHub CodeSpaces
+- Red Hat OpenShift Sandbox
+- Eclipse Che
+- GitPod
+
+## Available Kernels
+
+The following Java related Kernels are available:
+
+- `ijava` - https://github.com/SpencerPark/IJava
+- `rapaio`- https://github.com/padreati/rapaio-jupyter-kernel
+- `ganymede` - https://github.com/allen-ball/ganymede
+- `kotlin` - https://github.com/Kotlin/kotlin-jupyter
+
+You install them by passing their name as first argument. i.e. to install Kotlin do: `install-kernel@jupyter-java kotlin`
 
 ## Awesome Jupyter Java
 
