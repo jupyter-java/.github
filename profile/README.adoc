@@ -31,12 +31,15 @@ Once this has executed successfully you should be able to change the kernel/runt
 
 We've successfully tested this on the following online Jupyter notebooks: 
 
-- mybinder
-- Google Co-lab
-- GitHub CodeSpaces
-- Red Hat OpenShift Sandbox
-- Eclipse Che
-- GitPod
+- https://mybinder.org/[mybinder]
+- https://colab.research.google.com/[Google Colab]
+- https://developers.redhat.com/developer-sandbox[Red Hat OpenShift Sandbox] with Red Hat DataScience
+
+...and on the following vscode based IDE's (requires install of https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter[Jupyter extension]):
+
+- https://gitpod.io[GitPod]
+- https://github.com/codespaces[GitHub CodeSpaces]
+- https://workspaces.openshift.com/[OpenShift Workspaces]
 
 ## Available Kernels
 
@@ -52,7 +55,6 @@ You install them by passing their name as first argument. i.e. to install Kotlin
 ## Awesome Jupyter Java
 
 We've started an https://github.com/jupyter-java/awesome-jupyter-java[awesome list of Jupyter Java content], please feel free to contribute!
-
 
 ## Logo
 
