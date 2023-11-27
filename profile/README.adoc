@@ -29,13 +29,15 @@ jbang.exec("install-kernel@jupyter-java")
 ```
 Once this has executed successfully you should be able to change the kernel/runtime in your Jupyter notebook.
 
+NOTE: JBang will automatically use local Java or download a JDK if needed. This makes these steps all you need to do to get started with Java based kernels in any common Jupyter notebooks or IDE.
+
 We've successfully tested this on the following online Jupyter notebooks: 
 
 - https://mybinder.org/[mybinder]
 - https://colab.research.google.com/[Google Colab]
 - https://developers.redhat.com/developer-sandbox[Red Hat OpenShift Sandbox] with Red Hat DataScience
 
-...and on the following vscode based IDE's (requires install of https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter[Jupyter extension]):
+...and on the following Visual Studio based IDE's (requires install of https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter[Jupyter extension]):
 
 - https://gitpod.io[GitPod]
 - https://github.com/codespaces[GitHub CodeSpaces]
