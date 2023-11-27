@@ -21,7 +21,7 @@ This can then be used in your local Jupyter install or via editors that support 
 
 The great thing about this JBang driven approach is that it makes it accessible to install in many online Jupyter notebooks too.
 
-```bash
+```python
 !pip install jbang
 import jbang
 jbang.exec("trust add https://github.com/jupyter-java")
