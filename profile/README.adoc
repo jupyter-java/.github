@@ -14,7 +14,7 @@ The simplest way to run Java based Jupyter kernels is to install https://jbang.d
 jbang install-kernel@jupyter-java
 ```
 
-It will install a default Java kernel (currently IJava) which is then available locally on your computer.
+It will install a default Java kernel (currently JJava) which is then available locally on your computer.
 This can then be used in your local Jupyter install or via editors that support jupyter notebook such as vscode, intellij etc.
 
 ## Installing in online Jupyter notebooks
