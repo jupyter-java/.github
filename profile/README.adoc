@@ -47,6 +47,7 @@ We've successfully tested this on the following online Jupyter notebooks:
 
 The following Java related Kernels are available:
 
+- `jjava` - https://github.com/dflib/jjava
 - `ijava` - https://github.com/SpencerPark/IJava
 - `rapaio`- https://github.com/padreati/rapaio-jupyter-kernel
 - `ganymede` - https://github.com/allen-ball/ganymede
