@@ -1,7 +1,5 @@
 # Jupyter Java
 
-image:https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fjupyter-java%2F.github&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=visits&edge_flat=false[link=https://hits.seeyoufarm.com]
-
 Welcome to Jupyter Java, a GitHub organization created to simplify the discovery of various ways to use Java with Jupyter notebooks. We're not here to start a Java vs Python debate, we're all about the love of coding, regardless of the language! So, let's keep it light-hearted and fun.
 
 We provide JBang scripts to set up and install various Jupyter kernels, along with Docker images for easy execution in various Jupyter environments. Enjoy exploring!
